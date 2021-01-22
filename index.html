@@ -12,7 +12,7 @@
         <div class="nav">
             <ul class="nav-bar">
                 <li>
-                    <a href="#">Home</a>
+                    <a href="#" class="default">Home</a>
                 </li>
                 <li>
                     <a href="#">Explore</a>
@@ -47,16 +47,75 @@
     </header>
     <div class="container">
         <main>
-            <div class="user-tweet"></div>
+            <div class="user-tweet">
+                <div class="whats-happening">
+                    <img src="./assets/images/avatar.png" class="user-tweet-img" alt="Profile Image">
+                    <input type="text" class="whats-happening-input" placeholder="What's Happening?">
+                </div>
+                <input type="button" value="Tweet" class="tweet-button">
+            </div>
             <div class="user-posts"></div>
         </main>
         <aside>
-            <input type="text" class="search-twitter">
+            <input type="text" class="search-twitter" placeholder="Search Twitter">
             <div class="trending">
-
+                <h2 class="trending-title">
+                    Trending
+                </h2>
+                <hr>
+                <div class="trending-current">
+                    <h3>#Covid19</h3>
+                    <p>Trending in world</p>
+                </div>
+                <hr>
+                <div class="trending-current">
+                    <h3>#IPL2021</h3>
+                    <p>Trending in India</p>
+                </div>
+                <hr>
+                <div class="trending-current">
+                    <h3>#IndVsAus</h3>
+                    <p>Trending in cricket</p>
+                </div>
+                <hr>
+                <a href="#">Show More</a>
+                
             </div>
             <div class="follow">
+                <h2 class="trending-title">
+                    Follow More
+                </h2>
+                <hr>
+                <div class="follow-more">
+                    <img src="./assets/images/avatar.png" alt="Avatar Image" class="user-profile-img">
+                    <div class="follow-more-profile">
+                        <h3>Twitter Queen</h3>
+                        <p>@queenhoonmain</p>
+                    </div>
+                    <input type="button" class="follow-button" value="Follow">
 
+                </div>
+                <hr>
+                <div class="follow-more">
+                    <img src="./assets/images/avatar.png" alt="Avatar Image" class="user-profile-img">
+                    <div class="follow-more-profile">
+                        <h3>Twitter Queen</h3>
+                        <p>@queenhoonmain</p>
+                    </div>
+                    <input type="button" class="follow-button" value="Follow">
+                </div>
+                <hr>
+                <div class="follow-more">
+                    <img src="./assets/images/avatar.png" alt="Avatar Image" class="user-profile-img">
+                    <div class="follow-more-profile">
+                        <h3>Twitter Queen</h3>
+                        <p>@queenhoonmain</p>
+                    </div>
+                    <input type="button" class="follow-button" value="Follow">
+
+                </div>
+                <hr>
+                <a href="#">Show More</a>
             </div>
         </aside>
     </div>
